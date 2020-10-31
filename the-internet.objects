@@ -1,0 +1,15 @@
+{
+	"loginPage" : 
+	{
+		"url" 					 : "https://the-internet.herokuapp.com/login",
+		"usernameInputLocator" 	 : "input[id=username]",
+  		"passwordInputLocator" 	 : "input[id=password]",
+  		"loginButtonLocator" 	 : "button[type=submit]",
+  		"invalidLoginMsgLocator" : "div[class$=error]"
+	},
+
+	"homepage" : 
+	{
+		"loggedInUserLocator" 	 : "div[class$=success]"
+	}
+}
