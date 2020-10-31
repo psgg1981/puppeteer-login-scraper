@@ -4,8 +4,8 @@ Puppeteer project for brief automation of web page login
 ## how to use it?
 1. First make sure you have [nodeJS installed](https://nodejs.org/en/download/)
 2. Also install [puppeteer](https://www.npmjs.com/package/puppeteer#getting-started) and [log-timestamp](https://www.npmjs.com/package/log-timestamp#install)
-3. Setup your objects file (see the-internet.objects sample) containing the CSS selectors for page elements in your login and homepage
-4. Setup your credentials file (see the-internet.etc sample) containing username and password
+3. Setup your objects file (see [the-internet.objects sample](https://github.com/psgg1981/puppeteer-login-scraper/blob/master/the-internet.objects)) containing the CSS selectors for page elements in your login and homepage
+4. Setup your credentials file (see [the-internet.etc sample](https://github.com/psgg1981/puppeteer-login-scraper/blob/master/the-internet.etc)) containing username and password
 5. Run it using ```node login-scraper <page objects file> <credentials file>```
 
 Example
